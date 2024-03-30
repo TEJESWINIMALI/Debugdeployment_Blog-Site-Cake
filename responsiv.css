@@ -1,0 +1,124 @@
+@media(max-width:1500px){
+    .service,.menu,.about_event,.testimonial,.contact{
+        width: 100%;
+        height: auto;
+    }
+    .navbar{
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(19,18,19);
+    }
+    .navbar_nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(26,25,25);
+    }
+    .navbar_rightside_content{
+        display: none;
+    }
+    .nav-item{
+        margin: 8px 0px;
+    } 
+    .items_container_4{
+        display: none;
+    }
+    .icon_content_img{
+        width: 100px;
+    }
+    .heading_content_services{
+        font-size: 18px;
+    }
+    .para_food{
+        font-size: 12px;
+        color: rgba(0,0,0.596);
+    }
+    .menu{
+        width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 26px;
+    }
+    .navbar_footer{
+        display: block;
+        list-style-type: none;
+        text-align: center;   
+    }
+    footer{
+        height: auto;
+    }
+    .footer_top_section{
+        height: auto;
+    }
+    .footer_bottom_section{
+     padding: 45px;
+    }
+}
+@media(max-width:768px)
+{
+    .items_container_3{
+        display: none;
+    }
+    .para_testimonial{
+        font-size: 11px;
+        color: rgba(0,0,0,0.897);
+        text-align: left;
+        line-height: 21px;
+        margin: 6px 0px;
+    }
+    .about_customer{
+        position: absolute;
+        right: 34px;
+        bottom: 11px;
+    }
+    .table_version{
+        display: none;
+    }
+    .img_container{
+        width: 100px;
+        height: 80px;
+    }
+    .input_footer{
+        padding: 12px 20px;
+        width: 200px;
+        margin:0px 8px;
+        background-color: rgba(39,38,38,0.829);
+        font-size: 12px; 
+ }
+       .btn_newsletter{
+        text-decoration: none;
+        padding: 11px 25px;
+        background-color: rgba(39,38,38,0.829);
+        color:rgba(255,255,255,0.788);
+        font-size: 11px;
+       }
+}
+
+@media(max-width-576px){
+    .home-section_content{
+        text-align: center;
+    }
+  .content_item{
+    margin: auto;
+    width: 90%;
+ }
+   .image_container{
+    width: 70%;
+    height: 260Px;
+   }   
+   .heading_newsletter{
+     color:rgba(255,255,255,0.747);
+     font-size: 19px;
+     font-weight: 500;
+     margin: 0px;
+     margin-right: 18px;   
+   }
+}
